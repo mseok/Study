@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>Entangled Conditional Adversarial AutoEncoder</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Entangled_Conditional_Adversarial_AutoEncoder</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11773,11 +11773,10 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">Image</span>
-<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span>
 <span class="kn">import</span> <span class="nn">IPython.core.display</span> <span class="k">as</span> <span class="nn">di</span>
 <span class="c1"># Example: di.display_html(&#39;&lt;h3&gt;%s:&lt;/h3&gt;&#39; % str, raw=True)</span>
 <span class="n">di</span><span class="o">.</span><span class="n">display_html</span><span class="p">(</span><span class="s1">&#39;&lt;script&gt;jQuery(function() {if (jQuery(&quot;body.notebook_app&quot;).length == 0) { jQuery(&quot;.input_area&quot;).toggle(); jQuery(&quot;.prompt&quot;).toggle();}});&lt;/script&gt;&#39;</span><span class="p">,</span> <span class="n">raw</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -11803,6 +11802,19 @@ div#notebook {
 
 </div>
 
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">Image</span>
+</pre></div>
+
+</div>
 </div>
 </div>
 
@@ -11833,7 +11845,7 @@ $$= min_{E,G} max_D E_{x \sim p_{data}} log D(E(x)) + E_{z \sim p_{(z)}} log (1 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Image</span><span class="p">(</span><span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;../img/CAAE.png&#39;</span><span class="p">)</span>
@@ -11849,7 +11861,7 @@ $$= min_{E,G} max_D E_{x \sim p_{data}} log D(E(x)) + E_{z \sim p_{(z)}} log (1 
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[6]:</div>
+<div class="prompt output_prompt">Out[13]:</div>
 
 
 
@@ -11881,7 +11893,7 @@ $$= min_{E,G} max_D E_{x \sim p_{data}} log D(E(x)) + E_{z \sim p_{(z)}} log (1 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Image</span><span class="p">(</span><span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;../img/Motivation_of_Disentanglement.png&#39;</span><span class="p">)</span>
@@ -11897,7 +11909,7 @@ $$= min_{E,G} max_D E_{x \sim p_{data}} log D(E(x)) + E_{z \sim p_{(z)}} log (1 
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[10]:</div>
+<div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -11933,7 +11945,7 @@ $$R_{predictive} = max_{q(y|E(x))} E_{(x,y) \sim p_{data}} log\ q(y|E(x))$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Image</span><span class="p">(</span><span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;../img/Predictive_Disentanglement.png&#39;</span><span class="p">)</span>
@@ -11949,7 +11961,7 @@ $$R_{predictive} = max_{q(y|E(x))} E_{(x,y) \sim p_{data}} log\ q(y|E(x))$$
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[9]:</div>
+<div class="prompt output_prompt">Out[15]:</div>
 
 
 
@@ -11977,7 +11989,7 @@ $$R_{predictive} = max_{q(y|E(x))} E_{(x,y) \sim p_{data}} log\ q(y|E(x))$$
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Image</span><span class="p">(</span><span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;../img/Joint_Disentanglement.png&#39;</span><span class="p">)</span>
@@ -11993,7 +12005,7 @@ $$R_{predictive} = max_{q(y|E(x))} E_{(x,y) \sim p_{data}} log\ q(y|E(x))$$
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[8]:</div>
+<div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -12031,7 +12043,7 @@ $p(z|y) = N(z|\mu_\theta (y), \Sigma_\theta (y)$를 $\theta$ 하나의 parameter
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Image</span><span class="p">(</span><span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;../img/Entangled_Model.png&#39;</span><span class="p">)</span>
@@ -12047,7 +12059,7 @@ $p(z|y) = N(z|\mu_\theta (y), \Sigma_\theta (y)$를 $\theta$ 하나의 parameter
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[5]:</div>
+<div class="prompt output_prompt">Out[17]:</div>
 
 
 
