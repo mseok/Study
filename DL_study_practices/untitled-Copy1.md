@@ -1,5 +1,5 @@
 # header1
 
-** important **
+**important**
 
-$\epsilon$
+$E_{x \sim \pi_\theta}[log(1-D_\phi(x))]$
